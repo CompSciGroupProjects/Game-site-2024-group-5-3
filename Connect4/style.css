@@ -16,15 +16,18 @@
 
 .grid-item{
     margin: 5px;
-    background-color: #e1d8f7;
+    background-color: #d4d0d9;
 }
 
 #new-game{
     margin-top: 10px;
+    background-color: #5a189a;
+    color: #fefae0;
 }
 
 .background{
     background-color: #c8b6ff;
+    font-family: "Gill Sans Ultra Bold";
 }
 
 /*
@@ -33,4 +36,6 @@ D4ADCF - Pink Lavender
 856084 - Chinese Violet
 B1A1B4 - Rose Quartz
 DDE1E4 - Platinum
+5a189a
+d4d0d9
 */
