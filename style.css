@@ -15,5 +15,13 @@ DDE1E4 - Platinum
 }
 
 .spacer {
-    margin: 250px
+    margin: 150px
+}
+
+.rcorners1 {
+    border-radius: 25px;
+}
+
+.background-color{
+    background-color: #856084;
 }
