@@ -5,7 +5,7 @@
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto;
-    background-color: #5353cb;
+    background-color: #5a189a;
     color: #fefae0;
     width: 800px;
     height: 650px;
@@ -16,9 +16,21 @@
 
 .grid-item{
     margin: 5px;
-    background-color: #d0d0fa;
+    background-color: #e1d8f7;
 }
 
 #new-game{
     margin-top: 10px;
 }
+
+.background{
+    background-color: #c8b6ff;
+}
+
+/*
+C1CAD6 - French Gray
+D4ADCF - Pink Lavender
+856084 - Chinese Violet
+B1A1B4 - Rose Quartz
+DDE1E4 - Platinum
+*/
