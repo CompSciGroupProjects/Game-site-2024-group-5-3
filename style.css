@@ -13,3 +13,15 @@ DDE1E4 - Platinum
     margin-right: auto;
     font-family: "Spicy Rice", serif;
 }
+
+.spacer {
+    margin: 150px
+}
+
+.rcorners1 {
+    border-radius: 25px;
+}
+
+.background-color{
+    background-color: #856084;
+}
