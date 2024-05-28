@@ -1,20 +1,21 @@
 body {
-    background-color: lightblue;
-    font-family: "spicyrice", "papyrus", "fantasy";
+    /*background-color: ;*/
+    font-family: "Gill Sans Ultra Bold";
     text-align: center;
-    #rockimg{
-        width: 225px;
-    }
-    #displayComp {
-        border: 1px solid red;
-        height: 100px;
-        float: left;
-        width: 45%;
-    }
-    #displayPlayer {
-        border: 1px dotted blue;
-        height: 100px;
-        float: right;
-        width: 45%;
-    }
+}
+
+#rockimg{
+    width: 225px;
+}
+#displayComp {
+    border: 1px solid red;
+    height: 100px;
+    float: left;
+    width: 45%;
+}
+#displayPlayer {
+    border: 1px dotted blue;
+    height: 100px;
+    float: right;
+    width: 45%;
 }
