@@ -1,3 +1,8 @@
+#body{
+    font-family: "Gill Sans Ultra Bold";
+    background: #e0d7fa;
+}
+
 .center {
     margin-left:auto;
     margin-right:auto;
@@ -12,6 +17,14 @@
 #button_padding{
     padding: 200px;
 }
+
+.spacer {
+    margin: 100px;
+}
+.spacer2 {
+    margin: 20px;
+}
+
 .butt {
     border: 1px outset blue;
     background-color: lightBlue;
@@ -29,7 +42,7 @@
 /* CSS */
 .button-19 {
     appearance: button;
-    background-color: #1899D6;
+    background-color: #976fbe;
     border: solid transparent;
     border-radius: 16px;
     border-width: 0 0 4px;
@@ -37,7 +50,7 @@
     color: #FFFFFF;
     cursor: pointer;
     display: inline-block;
-    font-family: din-round,sans-serif;
+    font-family: "Gill Sans Ultra Bold";
     font-size: 15px;
     font-weight: 700;
     letter-spacing: .8px;
@@ -60,7 +73,7 @@
 
 .button-19:after {
     background-clip: padding-box;
-    background-color: #1CB0F6;
+    background-color: #976fbe;
     border: solid transparent;
     border-radius: 16px;
     border-width: 0 0 4px;
@@ -94,4 +107,10 @@
 
 .button19mod {
     width: 20%;
+}
+#title{
+    font-size: 30px;
+}
+.navbar{
+    background-color: #976fbe;
 }
