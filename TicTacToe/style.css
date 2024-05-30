@@ -19,6 +19,10 @@ h1{
     padding: 15px;
 }
 
+.navbar{
+    background-color: #976fbe;
+}
+
 /*<!-- HTML !-->*/
 /*<button class="button-19" role="button">Button 19</button>*/
 
@@ -90,4 +94,8 @@ h1{
 
 .button19mod {
     width: 20%;
+}
+
+.spacer {
+    margin: 100px;
 }
