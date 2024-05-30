@@ -1,6 +1,6 @@
 body {
     background-color: #c8b6ff;
-    font-family: "Gill Sans Ultra Bold";
+    font-family: "Gill Sans Ultra Bold", sans-serif;
     text-align: center;
 }
 
@@ -18,4 +18,11 @@ body {
     height: 100px;
     float: right;
     width: 45%;
+}
+
+.navbar{
+    background-color: #976fbe;
+}
+#space{
+    margin: 100px;
 }
