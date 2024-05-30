@@ -2,10 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>TicPaper4</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
+    <title>RockTac4</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
@@ -13,7 +10,7 @@
 <body id = "body"  class =  body-background>
 <nav class="navbar navbar-expand-sm text-light fixed-top navbar-dark">
     <div class="container-fluid">
-        <div><span class="navbar-brand text-light">RockTac4</span></div>
+        <div><span class="navbar-brand text-light" id="title">RockTac4</span></div>
         <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon text-light"></span>
@@ -22,13 +19,13 @@
             <ul class="navbar-nav">
 
                 <li class="nav-item ">
-                    <a class="nav-link text-light" href="#" data-bs-target="#RPS">RockPaperScissors </a>
+                    <a class="nav-link text-light" href="RockPaperScissors" >RockPaperScissors </a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link text-light" href="#skills" data-bs-target="#TTT">TicTacToe</a>
+                    <a class="nav-link text-light" href="TicTacToe">TicTacToe</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="#projects" data-bs-target="#C4">Connect4</a>
+                    <a class="nav-link text-light" href="Connect4">Connect4</a>
                 </li>
             </ul>
         </div>
@@ -36,27 +33,87 @@
 </nav>
 <div class="spacer"> </div>
 <div class = "games">
-    <section class = "container text-center my-auto background-color rcorners1" id="TTT">
-<h1>TicTacToe</h1>
-        <div><h4>By Aedan</h4></div>
 
-    </section>
+    <div id="rpsGame"></div>
+    <div class="container d-block mx-auto justify-content-center">
+        <div id="rpsCard" class="card" style="max-width:1000px; margin: auto">
+            <div class="row g-0">
+                <div class="col-md-6">
+                    <img src="https://img.freepik.com/premium-vector/rock-paper-scissors-game-illustration_615845-1163.jpg" class="img-fluid rounded-start" alt="rock paper scissors picture">
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h3 class="card-title">
+                            Rock Paper Scissors
+                        </h3>
+                        <p class="card-text">
+                            Rock Paper Scissors against computer: Players choose a move, computer selects one randomly. Outcome determined by traditional rules: rock beats scissors, scissors beats paper, paper beats rock.
+                        </p>
+                        <p class="card-text">
+                            <small class="text-muted">
+                                1 Player (Player vs Computer)
+                            </small>
 
-    <div class="spacer"> </div>
+                            <br><button type="button" class="playGame btn btn-md">Play Rock Paper Scissors</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="spacer" id = "tttGametest"></div>
 
-    <section class = "container text-center my-auto background-color rcorners1" id="RPS">
-<h1>RockPaperScissors</h1>
-        <div><h4>By Clinton</h4></div>
+        <div id="tttGame"></div>
+        <div id="tttCard" class="card" style="max-width:1000px; margin: auto">
+            <div class="row g-0">
+                <div class="col-md-6">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3916/3916416.png" class="img-fluid rounded-start" alt="tic tac toe image">
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h3 class="card-title">Tic-Tac-Toe</h3>
+                        <p class="card-text">
+                            Tic-tac-toe: 3x3 grid game. Players take turns placing X or O in empty spots. In order to win, the player needs to get three in a row, horizontally, vertically, or diagonally.                       </p>
+                        <p class="card-text">
+                            <small class="text-muted">
+                                1 - 2 players
+                            </small>
 
-    </section>
+                            <br><button type="button" class="playGame btn btn-md">Play Tic-Tac-Toe</button>
 
-    <div class="spacer"> </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <section class = "container text-center my-auto background-color rcorners1" id="C4">
-<h1>Connect4</h1>
-        <div><h4>By Niyati</h4></div>
+        <div class="spacer"></div>
 
-    </section>
+        <div id="c4Game"></div>
+        <div id="c4Card" class="card" style="max-width:1000px; margin: auto">
+            <div class="row g-0">
+                <div class="col-md-6">
+                    <img src="https://www.figma.com/community/snapshot?resource_id=1030568602955576031&resource_type=widget" class="img-fluid rounded-start" alt="tic tac toe image">
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h3 class="card-title">Connect Four</h3>
+                        <p class="card-text">
+                            Connect Four: Players drop colored discs, aiming to form a line of four of their color horizontally, vertically, or diagonally before their opponent.                        <p class="card-text">
+                        <small class="text-muted">
+                            2 players
+                        </small>
+
+                        <br><button type="button" class="playGame btn btn-md">Play Connect Four</button>
+
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="spacer"></div>
+    </div>
 </div>
 </body>
 </html>

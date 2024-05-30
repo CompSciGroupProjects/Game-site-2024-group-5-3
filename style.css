@@ -1,13 +1,10 @@
 /*
-C1CAD6 - French Gray
-D4ADCF - Pink Lavender
-856084 - Chinese Violet
-B1A1B4 - Rose Quartz
-DDE1E4 - Platinum
+#976fbe
+#e0d7fa
 */
 
 #body {
-    background: #B1A1B4;
+    background: #e0d7fa;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -21,7 +18,28 @@ DDE1E4 - Platinum
 .rcorners1 {
     border-radius: 25px;
 }
-
-.background-color{
-    background-color: #856084;
+.navbar{
+    background-color: #976fbe;
 }
+
+#title{
+    font-size: 30px;
+}
+
+.playGame{
+    margin-top: 10px;
+    background-color: #976fbe;
+    color: #fefae0;
+}
+
+.card{
+    margin-top: 100px;
+}
+
+#c4Card{
+    margin-bottom: 100px;
+}
+
+/*#tttGame {*/
+/*    padding-top: 200px;*/
+/*}*/
