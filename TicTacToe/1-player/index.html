@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
-<body>
+<body id = "body">
 <nav class="navbar navbar-expand-sm text-light fixed-top navbar-dark">
     <div class="container-fluid">
         <div><span class="navbar-brand text-light" id="title">RockTac4</span></div>
@@ -19,52 +19,58 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
             <ul class="navbar-nav">
-
                 <li class="nav-item ">
-                    <a class="nav-link text-light" href="../RockPaperScissors" >RockPaperScissors </a>
+                    <a class="nav-link text-light" href="../../" >Home </a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link text-light" href="../TicTacToe">TicTacToe</a>
+                    <a class="nav-link text-light" href="../../RockPaperScissors" >RockPaperScissors </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link text-light" href="../../TicTacToe">TicTacToe</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="../Connect4">Connect4</a>
+                    <a class="nav-link text-light" href="../../Connect4">Connect4</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
-<div>
-    <h1 class="centerText">SINGLEPLAYER</h1>
-</div>
-<div id="game">
-    <table class="center">
-        <tr>
-            <td><button class="butt" data-cell-index="0"></button></td>
-            <td><button class="butt" data-cell-index="1"></button></td>
-            <td><button class="butt" data-cell-index="2"></button></td>
-        </tr>
-        <tr>
-            <td><button class="butt" data-cell-index="3"></button></td>
-            <td><button class="butt" data-cell-index="4"></button></td>
-            <td><button class="butt" data-cell-index="5"></button></td>
-        </tr>
-        <tr>
-            <td><button class="butt" data-cell-index="6"></button></td>
-            <td><button class="butt" data-cell-index="7"></button></td>
-            <td><button class="butt" data-cell-index="8"></button></td>
-        </tr>
-    </table>
-</div>
-<div class="centerText">
-    <p id="message"></p>
-</div>
-<div class="center centerText">
-    <button onClick="window.location.reload();" class = "center button-19 button19mod" role="button">Refresh Page</button>
-</div>
-<div class = "center centerText">
-    <a href="../index.html">
-        <button class = "center button-19 button19mod" role="button">Main Menu</button>
-    </a>
-</div>
+
+<div class = "spacer"></div>
+    <div>
+        <h1 class="centerText">SINGLEPLAYER</h1>
+    </div>
+    <div id="game">
+        <table class="center">
+            <tr>
+                <td><button class="butt" data-cell-index="0"></button></td>
+                <td><button class="butt" data-cell-index="1"></button></td>
+                <td><button class="butt" data-cell-index="2"></button></td>
+            </tr>
+            <tr>
+                <td><button class="butt" data-cell-index="3"></button></td>
+                <td><button class="butt" data-cell-index="4"></button></td>
+                <td><button class="butt" data-cell-index="5"></button></td>
+            </tr>
+            <tr>
+                <td><button class="butt" data-cell-index="6"></button></td>
+                <td><button class="butt" data-cell-index="7"></button></td>
+                <td><button class="butt" data-cell-index="8"></button></td>
+            </tr>
+        </table>
+    </div>
+    <div class="centerText">
+        <p id="message"></p>
+    </div>
+    <div class="center centerText">
+        <button onClick="window.location.reload();" class = "center button-19 button19mod" role="button">Refresh Page</button>
+    </div>
+<div class="spacer2"></div>
+    <div class = "center centerText">
+        <a href="../index.html">
+            <button class = "center button-19 button19mod" role="button">Main Menu</button>
+        </a>
+    </div>
+
 </body>
 </html>
