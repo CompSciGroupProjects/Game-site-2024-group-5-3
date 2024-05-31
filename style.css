@@ -8,16 +8,13 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    font-family: "Gill Sans Ultra Bold";
+    font-family: "Gill Sans Ultra Bold", serif;
 }
 
 .spacer {
-    margin: 150px
+    margin: 70px
 }
 
-.rcorners1 {
-    border-radius: 25px;
-}
 .navbar{
     background-color: #976fbe;
 }
@@ -40,6 +37,13 @@
     margin-bottom: 100px;
 }
 
+.card-title{
+    align-content: start;
+}
+
+#rpsGame{
+    margin-top: 130px;
+}
 /*#tttGame {*/
 /*    padding-top: 200px;*/
 /*}*/

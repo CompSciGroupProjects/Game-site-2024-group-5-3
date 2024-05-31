@@ -14,9 +14,9 @@ function fill(row, column, playerNum) {
     if (playerNum === pRed) {
         document.getElementById(row + "," + column).style.backgroundColor = "#E34234";
         currentPlayer = pYellow;
-        document.getElementById("current-player").style.color = "gold";
+        document.getElementById("current-player").style.color = "#fff44f";
     } else {
-        document.getElementById(row + "," + column).style.backgroundColor = "gold";
+        document.getElementById(row + "," + column).style.backgroundColor = "#fff44f";
         currentPlayer = pRed;
         document.getElementById("current-player").style.color = "#E34234";
     }
@@ -184,7 +184,7 @@ function column7() {
             document.getElementById("player-turn").innerText = "";
         } else {
             winner.innerText = "Player Yellow Is The Winner!";
-            document.getElementById("winner").style.color = "gold";
+            document.getElementById("winner").style.color = "#fff44f";
             document.getElementById("player-turn").innerText = "";
         }
         endGame = true;

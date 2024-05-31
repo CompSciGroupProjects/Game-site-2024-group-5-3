@@ -16,7 +16,7 @@
 
 .grid-item{
     margin: 5px;
-    background-color: #e3d8ff;
+    background-color: #eaeaf1;
 }
 
 #new-game{
@@ -26,8 +26,8 @@
 }
 
 .background{
-    background-color: #c8b6ff;
-    font-family: "Gill Sans Ultra Bold";
+    background-color: #e0d7fa;
+    font-family: "Gill Sans Ultra Bold", serif;
 }
 
 .navbar{
@@ -36,11 +36,10 @@
 
 #title2{
     margin-top:70px;
-    color: #fefae0;
 }
 
-#player-turn{
-    color: #fefae0;
+#title{
+    font-size: 30px;
 }
 
 /*

@@ -2,46 +2,38 @@
     text-align: center;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto;
-    background-color: #976fbe;
-    color: #fefae0;
-    width: 800px;
-    height: 650px;
-    border-radius: 20px;
-    padding: 1%;
-    margin-top: 3%;
-}
-
-.grid-item{
-    margin: 5px;
-    background-color: #e3d8ff;
-}
-
-#new-game{
+#start-game{
     margin-top: 10px;
     background-color: #976fbe;
     color: #fefae0;
 }
 
 .background{
-    background-color: #c8b6ff;
-    font-family: "Gill Sans Ultra Bold";
+    background-color: #e0d7fa;
+    font-family: "Gill Sans Ultra Bold", serif;
 }
 
 .navbar{
     background-color: #976fbe;
 }
 
-#title2{
-    margin-top:70px;
-    color: #fefae0;
+#title{
+    font-size: 30px;
 }
 
-#player-turn{
-    color: #fefae0;
+#c4-rule{
+    margin-top: 100px;
 }
+
+ul{
+    text-align: center;
+    list-style-position: inside;
+}
+
+.rule-tag{
+    text-decoration-line: underline;
+}
+
 
 /*
 C1CAD6 - French Gray
