@@ -21,8 +21,9 @@
         <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
             <ul class="navbar-nav">
 
+
                 <li class="nav-item ">
-                    <a class="nav-link text-light" href="../index">Home </a>
+                    <a class="nav-link text-light" href="../" >Home </a>
                 </li>
                 <li class="nav-item ">
                     <a class="nav-link text-light" href="../RockPaperScissors" >RockPaperScissors </a>
@@ -38,13 +39,53 @@
     </div>
 </nav>
 
-<div class="container d-block">
-    <h1 id="title2"> Connect 4 Rules</h1>
 
-    <a href = "Connect4-Game/index.html">
-    <button type="button" class="btn btn-lg" id="new-game">Start Game</button>
-    </a>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+            <div id="c4-rule" class="card">
 
+
+                <div class="card-body">
+                    <h1 id="card-title"> Connect 4 Rules</h1>
+                    <br><h4 class="rule-tag"> Objective</h4>
+
+
+                    <ul>
+                        <li>Connect Four is a two-player game where the goal is to be the first to form a line of four of your colored discs, either horizontally, vertically, or diagonally.</li>
+                    </ul>
+
+
+                    <br><h4 class="rule-tag"> Game Setup</h4>
+                    <ul style="text-align: center;">
+                        <li>The game is played on a 7x6 grid.</li>
+                        <li>Players choose a color (traditionally red or yellow).</li>
+                        <li>Players take turns dropping one of their colored discs into any unoccupied column from the top.</li></ul>
+
+
+
+
+                    <br><h4 class="rule-tag">Turns</h4>
+                    <ul style="text-align: center;">
+                        <li>Players alternate turns, dropping one disc at a time into the grid.</li>
+                        <li>Discs are placed in the lowest available space within the chosen column. </li></ul>
+
+
+
+
+                    <br><h4 class="rule-tag"> Winning </h4>
+                    <ul style="text-align: center;">
+                        <li>The game ends when one player successfully forms a line of four of their colored discs.</li>
+                        <li>The line can be horizontal, vertical, or diagonal.</li>
+                        <li>If the grid fills up without a winner, the game ends in a draw.</li></ul>
+                    <a href = "Connect4-Game/index.html">
+                        <button type="button" class="btn btn-lg" id="start-game">Start Game</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>
+
