@@ -1,12 +1,15 @@
 
 #body {
-    font-family: "Gill Sans Ultra Bold";
+    font-family: "Gill Sans Ultra Bold", serif;
     background: #e0d7fa;
 }
 h1{
-    font-family: "Gill Sans Ultra Bold";
-    font-size: 70px;
-    font-weight: 700;
+    font-family: "Gill Sans Ultra Bold", serif;
+
+}
+
+.rules {
+    background: #976fbe;
 }
 
 .center {
@@ -35,7 +38,7 @@ h1{
 }
                                                        /* CSS */
 .button-19 {
-    appearance: button;
+
     background-color: #976fbe;
     border: solid transparent;
     border-radius: 16px;
@@ -44,7 +47,7 @@ h1{
     color: #FFFFFF;
     cursor: pointer;
     display: inline-block;
-    font-family: "Gill Sans Ultra Bold"
+    font-family: "Gill Sans Ultra Bold", serif;
     font-size: 15px;
     font-weight: 700;
     letter-spacing: .8px;
@@ -105,4 +108,17 @@ h1{
 
 .spacer {
     margin: 100px;
+}
+
+.spacer2 {
+    margin: 20px;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.rule-tag{
+    text-decoration-line: underline;
 }
