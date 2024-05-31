@@ -1,5 +1,5 @@
 body {
-    background-color: #c8b6ff;
+    background-color: #e0d7fa;
     font-family: "Gill Sans Ultra Bold", serif;
     text-align: center;
 }
@@ -25,5 +25,28 @@ body {
 }
 #space{
     margin: 100px;
+}
+
+#start-game{
+    margin-top: 10px;
+    background-color: #976fbe;
+    color: #fefae0;
+}
+
+#title{
+    font-size: 30px;
+}
+
+#c4-rule{
+    margin-top: 100px;
+}
+
+ul{
+    text-align: center;
+    list-style-position: inside;
+}
+
+.rule-tag{
+    text-decoration-line: underline;
 }
 
