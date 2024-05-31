@@ -6,9 +6,69 @@
     <script src="../RPS.js"></script>
     <link rel="stylesheet" href="../style.css">
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Welcome to RPS!</title>
 </head>
 <body>
 
+<nav class="navbar navbar-expand-sm text-light fixed-top navbar-dark">
+    <div class="container-fluid">
+        <div><span class="navbar-brand text-light" id="title">RockTac4</span></div>
+        <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon text-light"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link text-light" href="../" >Home</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link text-light" href="../RockPaperScissors" >RockPaperScissors</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link text-light" href="../TicTacToe">TicTacToe</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="../Connect4">Connect4</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+            <div id="c4-rule" class="card">
+
+
+                <div class="card-body">
+                    <h1 id="card-title"> Rock Paper Scissors Rules</h1>
+                    <br><h4 class="rule-tag"> Objective</h4>
+
+
+                    <ul>
+                        <li>Rock Paper Scissors is a luck-based, randomized game. The version here is a single player version that allows the user to play against a computer! The Objective is to choose a character that "beats" the computer's chosen characters, such as rock crushing scissors, or paper covering rock, and more!</li>
+                    </ul>
+
+
+                    <br><h4 class="rule-tag"> Game Setup</h4>
+                    <ul style="text-align: center;">
+                        <li>This game page specifically has 3 buttons vertically laid, that allow you to choose your character.</li>
+                        <li>Once your character is chosen, you may select the "SHOOT!!!" button, which tells the computer to choose a character, and display the winner.</li>
+                        <li>Once the "SHOOT!!!" button is pressed, the computer will also display your choice, alongside the computer's choice.</li></ul>
+
+                    <br><h4 class="rule-tag"> Winning </h4>
+                    <ul style="text-align: center;">
+                        <li>The game ends when the "SHOOT!!!" button is pressed.</li>
+                        <li>In the unlikely case that the computer and player choose the same character, the computer will display "It's a Tie!"</li></ul>
+                    <a href = "../index.html">
+                        <button type="button" class="btn btn-lg" id="start-game">Start Game</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
